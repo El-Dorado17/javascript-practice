@@ -1,8 +1,3 @@
-/*
-Initial push
-*/
-
-//This change was made on work branch!
 
 
 //1.) Return the sum of 2 numbers
