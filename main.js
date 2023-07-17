@@ -10,4 +10,11 @@ const minToSec = (x) => {
     conversion = x * 60
     return conversion
 }
-console.log(minToSec(60))
+//console.log(minToSec(60))
+
+//3.)
+const jewelry = ["Earring", "Ring", "Necklace"]
+
+length = jewelry.length
+
+//console.log(length) //returns 3
