@@ -25,3 +25,6 @@ length = jewelry.length
 jewelry.push("Anklet")
 //console.log(jewelry)
 
+//5.)
+indexOf = jewelry.indexOf("Necklace")
+console.log(indexOf)
