@@ -27,4 +27,9 @@ jewelry.push("Anklet")
 
 //5.)
 indexOf = jewelry.indexOf("Necklace")
-console.log(indexOf)
+//console.log(indexOf)
+
+//6.) 
+const slice = jewelry.slice(1)
+console.log(slice)
+
