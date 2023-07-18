@@ -31,5 +31,8 @@ indexOf = jewelry.indexOf("Necklace")
 
 //6.) 
 const slice = jewelry.slice(1)
-console.log(slice)
+//console.log(slice)
 
+//7.)
+// const split = jewelry.split()
+// console.log(split)
