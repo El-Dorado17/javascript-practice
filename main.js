@@ -39,3 +39,4 @@ const slice = jewelry.slice(1)
 
 //8.) .push
 //9.) .splice
+//10.) .pop
