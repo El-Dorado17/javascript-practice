@@ -36,3 +36,6 @@ const slice = jewelry.slice(1)
 //7.) //! Not working/ unsuccessful
 // const split = jewelry.split()
 // console.log(split)
+
+//8.) .push
+//9.) .splice
