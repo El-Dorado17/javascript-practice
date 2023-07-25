@@ -33,13 +33,18 @@ indexOf = jewelry.indexOf("Necklace")
 const slice = jewelry.slice(1)
 //console.log(slice)
 
-//7.) //! Not working/ unsuccessful
-// const split = jewelry.split()
-// console.log(split)
+//7.)split
+const sentence = "I just moved states"
+
+const newArray = sentence.split("s")
+console.log(newArray)
+// , 3 <-- limits to only 3 splits 
+//"s" removes the s's and makes new quotes: 
+//[ 'I ju', 't moved ', 'tate', '' ]
 
 //8.) .push
 jewelry.pop()
-console.log(jewelry)
+//console.log(jewelry)
 
 //9.) .splice
 //10.) .pop
