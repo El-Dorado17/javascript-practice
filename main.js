@@ -22,7 +22,7 @@ length = jewelry.length
 
 //4.)
 //console.log(jewelry)
-jewelry.push("Anklet")
+//jewelry.push("Anklet")
 //console.log(jewelry)
 
 //5.)
@@ -38,5 +38,8 @@ const slice = jewelry.slice(1)
 // console.log(split)
 
 //8.) .push
+jewelry.pop()
+console.log(jewelry)
+
 //9.) .splice
 //10.) .pop
