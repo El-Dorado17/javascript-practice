@@ -37,14 +37,16 @@ const slice = jewelry.slice(1)
 const sentence = "I just moved states"
 
 const newArray = sentence.split("s")
-console.log(newArray)
+// console.log(newArray)
 // , 3 <-- limits to only 3 splits 
 //"s" removes the s's and makes new quotes: 
 //[ 'I ju', 't moved ', 'tate', '' ]
 
-//8.) .push
+//8.) .pop
 jewelry.pop()
 //console.log(jewelry)
 
 //9.) .splice
-//10.) .pop
+const spliceArray = ["Jan", "Feb", "March", "May"]
+spliceArray.splice(3, 0, "Apr") //What is the 0 doing? 
+console.log(spliceArray)
