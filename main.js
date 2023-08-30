@@ -81,3 +81,11 @@
 // console.log('F')
 
 
+//*11.) function that takes a string and splits it into an array
+
+const stringToArray = (string) =>{
+    let theSplit = string.split(" ")
+    return theSplit
+}
+
+console.log(stringToArray("Hey One Two")) // GOT IT
