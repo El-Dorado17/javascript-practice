@@ -83,9 +83,29 @@
 
 //*11.) function that takes a string and splits it into an array
 
-const stringToArray = (string) =>{
-    let theSplit = string.split(" ")
-    return theSplit
+// const stringToArray = (string) =>{
+//     let theSplit = string.split(" ")
+//     return theSplit
+// }
+
+// console.log(stringToArray("Hey One Two")) // GOT IT
+
+
+
+
+//*12.) Function that gets volume of the inputs, and finds the absolute difference between them; no matter the order
+//EXAMPLE - parameters are ([2, 3, 4], [3, 4, 5] (24 subtracted from 60 should return 36)   )
+
+const findDifference = (a, b) =>{
+    const cubeA = a[0] * a[1] * a[2]
+
+    const cubeB = b[0] * b[1] * b[2]
+
+    const absoluteDifference = Math.abs(cubeA - cubeB)
+
+    return absoluteDifference
 }
 
-console.log(stringToArray("Hey One Two")) // GOT IT
+console.log(findDifference([9, 7, 2], [5, 2, 2]))
+
+// ? POSSIBLE IN ONE LINE return Math.abs(a[0]*a[1]*a[2]-b[0]*b[1]*b[2]);
