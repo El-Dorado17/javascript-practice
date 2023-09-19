@@ -1,3 +1,5 @@
+//PongGame is a giant function with the canvas (browser screen) as parameter
+
 function PongGame(canvas) {
     const FRAMES_PER_SECOND = 60;
     const FRAME_RATE_ADJUST = 30 / FRAMES_PER_SECOND;
@@ -13,7 +15,7 @@ function PongGame(canvas) {
 
     var ballX = 100 , ballY = 100;
     var ballSpeedX = 10 * FRAME_RATE_ADJUST, ballSpeedY = 4 * FRAME_RATE_ADJUST;
-    var player1Score = 0, player2Score = 0;
+    var player1Score = 0, player2Score = 0; //? inital score value
     var paddle1Y = 250, paddle2Y = 250;
     var showingWinScreen = false;
 
@@ -65,7 +67,7 @@ function PongGame(canvas) {
     function ballReset() {
         if (player1Score >= WINNING_SCORE ||
                 player2Score >= WINNING_SCORE) {
-            showingWinScreen = true;
+            showingWinScreen = true; //? shows winning screen if either player scored over the winning_score variable
         }
 
         ballSpeedX = -ballSpeedX;
