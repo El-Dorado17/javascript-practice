@@ -125,3 +125,17 @@
 //     return reversing
     
 //   }
+
+
+
+
+/*
+Math.abs()
+
+ceil()
+
+floor()
+
+
+.reverse
+*/
