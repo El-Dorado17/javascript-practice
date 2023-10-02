@@ -127,6 +127,8 @@
 //   }
 
 
+//! Function that checks if a number is less than 100:
+
 
 
 /*
@@ -138,4 +140,7 @@ floor()
 
 
 .reverse
+
+
+
 */
