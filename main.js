@@ -127,7 +127,13 @@
 //   }
 
 
-//! Function that checks if a number is less than 100:
+//*14.) Function that checks if a number is less than 100:
+
+const Check = (x) =>{
+    x > 100 ? console.log('Greater') : console.log('Less Than')
+}
+
+console.log(Check(313))
 
 
 
